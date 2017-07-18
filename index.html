@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Popcorn Trivia</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- header div -->
+	<div id="header">
+		<h1>Popcorn Trivia</h1>
+	</div>
+
+<!-- start button -->
+	<div id="start">
+		<button class="btn btn-danger">Start</button>
+	</div>
+
+<!-- trivia questions -->
+	<div id="q1" class="questions">
+			<p id="q1Text">What do you call a kernel of popcorn that fails to pop?</p>
+			<form id="a1" class="answers">
+  			<input type="radio" class="correct" name="answer" value="oldMaids"> "Old Maid"
+  			<input type="radio" name="answer" value="duds"> "Dud"  
+  			<input type="radio" name="answer" value="misfire"> "Misfire"
+  			<input type="radio" name="answer" value="squib"> "Squib"
+			</form>
+	</div>
+	<div id="q2" class="questions">
+			<p id="q2Text">Which state produces the most popcorn in the country? (About 1/4 of all production in the USA!)</p>
+			<form id="a2" class="answers">
+  			<input type="radio" name="answer" value="Indiana"> Indiana
+  			<input type="radio" class="correct" name="answer" value="Nebraska"> Nebraska
+  			<input type="radio" name="answer" value="Missouri"> Missouri
+  			<input type="radio" name="answer" value="Illinois"> Illinois
+			</form>
+	</div>
+	<div id="q3" class="questions">
+			<p id="q3Text">How much popcorn does an American eat on average?</p>
+			<form id="a3" class="answers">
+  			<input type="radio" name="answer" value="54Qts"> 54 qts
+  			<input type="radio" class="correct" name="answer" value="68Qts"> 68 qts
+  			<input type="radio" name="answer" value="57Qts"> 57 qts
+  			<input type="radio" name="answer" value="70Qts"> 70 qts
+			</form>
+	</div>
+	<div id="q4" class="questions">
+			<p id="q4Text">What did Native Americans NOT use popping corn to make?</p>
+			<form id="a4" class="answers">
+  			<input type="radio" name="answer" value="Headdresses"> Headdresses
+  			<input type="radio" class="correct" name="answer" value="Flour"> Flour
+  			<input type="radio" name="answer" value="Beer"> Beer
+  			<input type="radio" name="answer" value="Soup"> Soup
+			</form>
+	</div>
+	<div id="q5" class="questions">
+			<p id="q5Text">The average cup of popcorn contains how many kernels?</p>
+			<form id="a5" class="answers">
+  			<input type="radio" name="answer" value="750"> 750
+  			<input type="radio" name="answer" value="800"> 800
+  			<input type="radio" name="answer" value="1200"> 1200
+  			<input type="radio" class="correct" name="answer" value="1600"> 1600
+			</form>
+	</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src="assets/javascript/trivia.js"></script>
+</body>
+</html>

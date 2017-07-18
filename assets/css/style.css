@@ -1,0 +1,14 @@
+body {
+	text-align: center;
+	background-color: lightgreen;
+}
+
+.questions {
+	background-color: white;
+	margin-bottom: 30px;
+	font-size: 1.5em;
+}
+
+.btn {
+	margin-bottom: 30px;
+}
