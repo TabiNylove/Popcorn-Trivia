@@ -1,14 +1,53 @@
 body {
 	text-align: center;
-	background-color: lightgreen;
+	background-color: rgb(158, 216, 182);
+}
+
+#header {
+	font-size: 3em;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+input {
+	padding: 20px;
+}
+
+div p {
+	font-weight: bold;
 }
 
 .questions {
-	background-color: white;
+	background-color: rgb(251, 255, 232);
+	background: 
+	-webkit-linear-gradient(left, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 22%, rgba(246,246,246,1) 78%, rgba(225,225,225,1) 99%);
+	background: 
+	-o-linear-gradient(left, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 22%, rgba(246,246,246,1) 78%, rgba(225,225,225,1) 99%);
+	background: 
+	linear-gradient(to right, rgba(241,241,241,1) 0%, rgba(255,255,255,1) 22%, rgba(246,246,246,1) 78%, rgba(225,225,225,1) 99%);
 	margin-bottom: 30px;
 	font-size: 1.5em;
+	padding: 25px;
 }
 
 .btn {
-	margin-bottom: 30px;
+	margin-top: 30px;
+	font-size: 1em;
 }
+
+#start {
+	margin-bottom: 30px;
+	font-size: 2em;
+}
+
+#popcorn {
+	align-content: center;
+	width: 200px;
+	z-index: 1;
+}
+
+#popcorn:hover {
+	opacity: 0;
+
+}
+
+
